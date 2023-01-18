@@ -91,5 +91,12 @@
                 </c:forEach>
             </table>
         </c:if>
+        
+        <c:if test="${students.size() > 5}">
+            <form method="post" action="StatsCalculator">
+                <input type="submit" name="send2" value="Statistics">              
+            </form>
+        </c:if>
+            
     </body>
 </html>
