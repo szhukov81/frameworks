@@ -83,6 +83,7 @@
                     <tr>
                         <td><c:out value="${student.getName()}" /></td>
                         <td><c:out value="${student.getSurname()}" /></td>
+                        <td><c:out value="${student.getDoc().toString()}" /></td>
                         <td><c:out value="${student.getAge()}" /></td>
                         <td><c:out value="${student.getEmail()}" /></td>
                         <td><c:out value="${student.getGroup()}" /></td>

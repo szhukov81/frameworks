@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="StatsCalculatorTest" time="0.09" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="StatsCalculatorTest" time="0.321" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\serega\Documents\NetBeansProjects\frameworks\maven\target\test-classes;C:\Users\serega\Documents\NetBeansProjects\frameworks\maven\target\classes;C:\Users\serega\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\serega\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\serega\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\serega\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\serega\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\serega\.m2\repository\javax\javaee-web-api\7.0\javaee-web-api-7.0.jar;C:\Users\serega\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\serega\Documents\NetBeansProjects\frameworks\maven\target\test-classes;C:\Users\serega\Documents\NetBeansProjects\frameworks\maven\target\classes;C:\Users\serega\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\serega\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\serega\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\serega\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\serega\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\serega\.m2\repository\javax\javaee-web-api\7.0\javaee-web-api-7.0.jar;C:\Users\serega\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;C:\Users\serega\.m2\repository\org\springframework\spring-context\4.3.9.RELEASE\spring-context-4.3.9.RELEASE.jar;C:\Users\serega\.m2\repository\org\springframework\spring-aop\4.3.9.RELEASE\spring-aop-4.3.9.RELEASE.jar;C:\Users\serega\.m2\repository\org\springframework\spring-beans\4.3.9.RELEASE\spring-beans-4.3.9.RELEASE.jar;C:\Users\serega\.m2\repository\org\springframework\spring-core\4.3.9.RELEASE\spring-core-4.3.9.RELEASE.jar;C:\Users\serega\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\serega\.m2\repository\org\springframework\spring-expression\4.3.9.RELEASE\spring-expression-4.3.9.RELEASE.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,10 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\serega\AppData\Local\Temp\surefire15790030814177694587\surefirebooter467027727847858691.jar C:\Users\serega\AppData\Local\Temp\surefire15790030814177694587 2023-01-18T02-59-20_485-jvmRun1 surefire587532063472876201tmp surefire_01834769171706153565tmp"/>
+    <property name="sun.java.command" value="C:\Users\serega\AppData\Local\Temp\surefire2457084251492833907\surefirebooter638090015674236250.jar C:\Users\serega\AppData\Local\Temp\surefire2457084251492833907 2023-01-19T01-35-37_121-jvmRun1 surefire6108077752612449239tmp surefire_09265683032940177421tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="StatsCalculatorTest"/>
-    <property name="surefire.test.class.path" value="C:\Users\serega\Documents\NetBeansProjects\frameworks\maven\target\test-classes;C:\Users\serega\Documents\NetBeansProjects\frameworks\maven\target\classes;C:\Users\serega\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\serega\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\serega\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\serega\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\serega\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\serega\.m2\repository\javax\javaee-web-api\7.0\javaee-web-api-7.0.jar;C:\Users\serega\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\serega\Documents\NetBeansProjects\frameworks\maven\target\test-classes;C:\Users\serega\Documents\NetBeansProjects\frameworks\maven\target\classes;C:\Users\serega\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\serega\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\serega\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\serega\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\serega\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\serega\.m2\repository\javax\javaee-web-api\7.0\javaee-web-api-7.0.jar;C:\Users\serega\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;C:\Users\serega\.m2\repository\org\springframework\spring-context\4.3.9.RELEASE\spring-context-4.3.9.RELEASE.jar;C:\Users\serega\.m2\repository\org\springframework\spring-aop\4.3.9.RELEASE\spring-aop-4.3.9.RELEASE.jar;C:\Users\serega\.m2\repository\org\springframework\spring-beans\4.3.9.RELEASE\spring-beans-4.3.9.RELEASE.jar;C:\Users\serega\.m2\repository\org\springframework\spring-core\4.3.9.RELEASE\spring-core-4.3.9.RELEASE.jar;C:\Users\serega\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\serega\.m2\repository\org\springframework\spring-expression\4.3.9.RELEASE\spring-expression-4.3.9.RELEASE.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\serega"/>
     <property name="user.language" value="ru"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\serega\AppData\Local\Temp\surefire15790030814177694587\surefirebooter467027727847858691.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\serega\AppData\Local\Temp\surefire2457084251492833907\surefirebooter638090015674236250.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
@@ -58,9 +58,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="calculatePopularDomainTest" classname="StatsCalculatorTest" time="0.037"/>
-  <testcase name="whenExceptionThrown_thenExpactationSatisfied" classname="StatsCalculatorTest" time="0.004"/>
-  <testcase name="patternMatchesTest" classname="StatsCalculatorTest" time="0.001"/>
-  <testcase name="getEmailDomainTest" classname="StatsCalculatorTest" time="0.002"/>
-  <testcase name="calculateMeanAgeTest" classname="StatsCalculatorTest" time="0.001"/>
+  <testcase name="calculatePopularDomainTest" classname="StatsCalculatorTest" time="0.012">
+    <system-err><![CDATA[янв. 19, 2023 1:35:37 AM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5bd03f44: startup date [Thu Jan 19 01:35:37 EET 2023]; root of context hierarchy
+янв. 19, 2023 1:35:38 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringXMLConfig.xml]
+янв. 19, 2023 1:35:38 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Users\serega\Documents\NetBeansProjects\frameworks\maven\src\main\resources\SpringXMLConfig.xml]
+]]></system-err>
+  </testcase>
+  <testcase name="whenExceptionThrown_thenExpactationSatisfied" classname="StatsCalculatorTest" time="0"/>
+  <testcase name="patternMatchesTest" classname="StatsCalculatorTest" time="0"/>
+  <testcase name="getEmailDomainTest" classname="StatsCalculatorTest" time="0"/>
+  <testcase name="calculateMeanAgeTest" classname="StatsCalculatorTest" time="0"/>
 </testsuite>
